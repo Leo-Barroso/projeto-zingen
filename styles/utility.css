@@ -15,7 +15,6 @@
     padding-block: var(--padding-y-xl)
 }
 
-
 .container {
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--padding-x-lg) * 2);
@@ -29,6 +28,18 @@
 
 .even-columns {
     display: grid;
+    gap: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.gap-1 {
     gap: 1rem;
 }
 
